@@ -1,0 +1,17 @@
+.box {
+  height: 100%;
+  width: 100%;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+}
+.box img {
+  width: 95%;
+  height: 350px;
+}
+.box p {
+  text-align: center;
+}/*# sourceMappingURL=Topslider.css.map */

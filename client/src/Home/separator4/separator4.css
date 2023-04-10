@@ -1,0 +1,26 @@
+.separator2 {
+  padding: 10px 100px;
+  background-color: black;
+}
+.separator2 .separator2_container {
+  height: 60vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.separator2 .left_separator2 {
+  width: 50%;
+}
+.separator2 .right_separator2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  position: relative;
+}
+.separator2 .right_separator2 img {
+  height: 420px;
+  width: 550px;
+}/*# sourceMappingURL=separator4.css.map */

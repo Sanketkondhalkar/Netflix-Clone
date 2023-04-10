@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: scroll;
+  overflow-x: hidden;
+  color: white;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

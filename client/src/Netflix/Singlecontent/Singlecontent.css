@@ -1,0 +1,127 @@
+.siglecontainer {
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.siglecontainer .bg_container {
+  position: absolute;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+}
+.siglecontainer .bg_container .content {
+  height: auto !important;
+  width: 93%;
+  margin-top: 40px;
+  display: flex;
+  padding: 0px 50px;
+}
+.siglecontainer .bg_container .content .left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.siglecontainer .bg_container .content .left img {
+  height: 600px;
+  width: 60%;
+  border-radius: 15px;
+}
+.siglecontainer .bg_container .content .right {
+  width: 60%;
+}
+.siglecontainer .bg_container .content .right h1 {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.siglecontainer .bg_container .content .right .circlebox {
+  display: flex;
+}
+.siglecontainer .bg_container .content .right .circlebox .circle {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(143, 136, 136, 0.4);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.siglecontainer .bg_container .content .right .info .info_aside {
+  display: flex;
+}
+.siglecontainer .bg_container .content .right .info .info_aside .left_info_aside {
+  width: 50%;
+}
+.siglecontainer .bg_container .content .right .info .info_aside .right_info_aside {
+  width: 50%;
+}
+.siglecontainer .bg_container .content .right .info p {
+  line-height: 30px;
+}
+.siglecontainer .bg_container .content .right .info p .Heading {
+  font-size: 20px;
+  font-weight: 800;
+}
+.siglecontainer .bg_container .content .right .info .production {
+  line-height: 30px;
+}
+.siglecontainer .bg_container .content .right .info .production .Heading {
+  font-size: 20px;
+  font-weight: 800;
+}
+.siglecontainer .bg_container .content .right .info .category {
+  line-height: 30px;
+}
+.siglecontainer .bg_container .content .right .info .category .Heading {
+  font-size: 20px;
+  font-weight: 800;
+}
+.siglecontainer .bg_container .content .right .info button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  outline: none;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.siglecontainer .bg_container .content .right .info .production {
+  margin-top: 6px;
+}
+.siglecontainer .bg_container .similarmovie {
+  height: auto;
+  width: 93%;
+  padding: 0px 50px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.siglecontainer .bg_container .similarmovie .similarmovieheading {
+  font-size: 30px;
+}
+.siglecontainer .bg_container .similarmovie .container_similar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.siglecontainer .bg_container .similarmovie .container_similar .demo {
+  height: 400px;
+  margin: 21px 30px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.siglecontainer .bg_container .similarmovie .container_similar .demo img {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+.siglecontainer .bg_container .similarmovie .container_similar .demo h3 {
+  text-align: center;
+}
+.siglecontainer .bg_container .similarmovie .container_similar .demo p {
+  margin-top: -5px;
+}/*# sourceMappingURL=Singlecontent.css.map */

@@ -1,0 +1,127 @@
+.Login_conatiner {
+  height: 100vh;
+  margin-top: 0px;
+  padding: 1px;
+  margin: -1px;
+  width: 100%;
+  background-image: url("../../public/Images/1.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+.Login_conatiner .conatiner_login {
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Login_conatiner .conatiner_login .login_box {
+  padding: 20px 60px;
+  height: 520px;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 22%;
+}
+.Login_conatiner .conatiner_login .login_box h1 {
+  font-weight: 400 !important;
+}
+.Login_conatiner .conatiner_login .login_box .inputbox {
+  display: flex;
+  flex-direction: column;
+}
+.Login_conatiner .conatiner_login .login_box .inputbox .email {
+  width: 100%;
+}
+.Login_conatiner .conatiner_login .login_box .inputbox .email input {
+  background-color: #333;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100%;
+  color: white;
+  letter-spacing: normal !important;
+}
+.Login_conatiner .conatiner_login .login_box .inputbox .email input::-moz-placeholder {
+  color: #8c8c8c;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+.Login_conatiner .conatiner_login .login_box .inputbox .email input::placeholder {
+  color: #8c8c8c;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+.Login_conatiner .conatiner_login .login_box .inputbox .password {
+  margin-top: 20px;
+  width: 100%;
+}
+.Login_conatiner .conatiner_login .login_box .inputbox .password input {
+  border: none;
+  background-color: #333;
+  height: 50px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.Login_conatiner .conatiner_login .login_box .inputbox .password input::-moz-placeholder {
+  color: #8c8c8c;
+  font-family: sans-serif;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.Login_conatiner .conatiner_login .login_box .inputbox .password input::placeholder {
+  color: #8c8c8c;
+  font-family: sans-serif;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.Login_conatiner .conatiner_login .login_box .submitlogin {
+  height: 55px;
+  width: 100%;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.Login_conatiner .conatiner_login .login_box .buttondata {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  justify-content: space-around;
+  align-items: self-end;
+}
+.Login_conatiner .conatiner_login .login_box .buttondata .left {
+  width: 50%;
+}
+.Login_conatiner .conatiner_login .login_box .buttondata .left .need {
+  font-size: 15px;
+  color: #8c8c8c;
+}
+.Login_conatiner .conatiner_login .login_box .buttondata .right {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.Login_conatiner .conatiner_login .login_box .buttondata .right .need {
+  font-size: 15px;
+  color: #8c8c8c;
+}
+.Login_conatiner .conatiner_login .login_box span {
+  font-size: 15px;
+  color: white;
+}
+.Login_conatiner .conatiner_login .login_box p {
+  font-size: 15px;
+  color: #8c8c8c;
+  margin-top: 60px;
+}
+.Login_conatiner .conatiner_login .login_box lable {
+  font-size: 13px;
+  color: #8c8c8c;
+}/*# sourceMappingURL=Login.css.map */

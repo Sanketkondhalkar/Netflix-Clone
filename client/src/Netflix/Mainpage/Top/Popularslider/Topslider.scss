@@ -1,0 +1,25 @@
+// .slick-next:before,
+// .slick-prev:before {
+//     display: none !important;
+// }
+
+.box {
+    height: 100%;
+    width: 100%;
+    // background-color: red;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+
+    img {
+        width: 95%;
+        height: 350px;
+    }
+
+    p {
+        text-align: center;
+    }
+}

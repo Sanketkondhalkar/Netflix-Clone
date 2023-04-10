@@ -1,0 +1,39 @@
+.separator1 {
+  padding: 10px 100px;
+  background-color: black;
+}
+.separator1 .separator1_container {
+  height: 60vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.separator1 .left_separator1 {
+  width: 50%;
+}
+.separator1 .right_separator1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.separator1 .right_separator1 img {
+  height: 380px;
+  width: 500px;
+}
+.separator1 .right_separator1 .videio_container {
+  height: 380px;
+  width: 500px;
+}
+.separator1 .right_separator1 video {
+  height: 420px;
+  width: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.separator1 .right_separator1 video::-webkit-media-controls-panel {
+  display: none !important;
+  opacity: 1 !important;
+}/*# sourceMappingURL=Separator.css.map */

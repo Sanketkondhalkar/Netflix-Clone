@@ -1,0 +1,35 @@
+.separator2 {
+    padding: 10px 100px;
+    background-color: black;
+
+    .separator2_container {
+        height: 60vh;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left_separator2 {
+        width: 50%;
+        // background-color: red;
+    }
+
+    .right_separator2 {
+
+        // background-color: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        position: relative;
+
+        img {
+            height: 420px;
+            width: 550px;
+        }
+
+
+    }
+}

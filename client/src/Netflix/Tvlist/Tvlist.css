@@ -1,0 +1,39 @@
+.movilist_container {
+  height: auto;
+  width: 94%;
+  padding: 0px 50px;
+  background-color: black;
+}
+.movilist_container .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.movilist_container .flex .demo {
+  width: 21%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movilist_container .flex .demo img {
+  height: 352px;
+  width: 100%;
+}
+.movilist_container .flex .demo p {
+  text-align: center;
+}
+.movilist_container .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.movilist_container .buttons button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: none;
+  border: 1px solid red;
+  margin-bottom: 100px;
+}/*# sourceMappingURL=Tvlist.css.map */

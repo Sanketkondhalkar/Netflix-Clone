@@ -1,0 +1,157 @@
+.Register_conatiner {
+  height: 100vh;
+  margin-top: 0px;
+  padding: 1px;
+  margin: -1px;
+  width: 100%;
+  background-image: url("../../public/Images/1.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+.Register_conatiner .conatiner_Register {
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Register_conatiner .conatiner_Register .Register_box {
+  padding: 20px 60px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 30%;
+}
+.Register_conatiner .conatiner_Register .Register_box h1 {
+  font-weight: 400 !important;
+}
+.Register_conatiner .conatiner_Register .Register_box .inputbox {
+  display: flex;
+  flex-direction: column;
+}
+.Register_conatiner .conatiner_Register .Register_box .input1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Register_conatiner .conatiner_Register .Register_box .input1 .left {
+  width: 50%;
+  padding: 0px 10px 0px 0px;
+}
+.Register_conatiner .conatiner_Register .Register_box .input1 .left input {
+  background-color: #333;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100%;
+  color: white;
+  letter-spacing: normal !important;
+}
+.Register_conatiner .conatiner_Register .Register_box .input1 .left input::-moz-placeholder {
+  color: #8c8c8c;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+.Register_conatiner .conatiner_Register .Register_box .input1 .left input::placeholder {
+  color: #8c8c8c;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+.Register_conatiner .conatiner_Register .Register_box .input1 .right {
+  width: 50%;
+  padding: 0px 0px 0px 10px;
+}
+.Register_conatiner .conatiner_Register .Register_box .input1 .right input {
+  background-color: #333;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100%;
+  color: white;
+  letter-spacing: normal !important;
+}
+.Register_conatiner .conatiner_Register .Register_box .input1 .right input::-moz-placeholder {
+  color: #8c8c8c;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+.Register_conatiner .conatiner_Register .Register_box .input1 .right input::placeholder {
+  color: #8c8c8c;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+.Register_conatiner .conatiner_Register .Register_box input {
+  background-color: #333;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100%;
+  color: white;
+  letter-spacing: normal !important;
+  margin-top: 30px;
+}
+.Register_conatiner .conatiner_Register .Register_box input::-moz-placeholder {
+  color: #8c8c8c;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+.Register_conatiner .conatiner_Register .Register_box input::placeholder {
+  color: #8c8c8c;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+.Register_conatiner .conatiner_Register .Register_box .submitRegister {
+  height: 55px;
+  width: 100%;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.Register_conatiner .conatiner_Register .Register_box .buttondata {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  justify-content: space-around;
+  align-items: self-end;
+}
+.Register_conatiner .conatiner_Register .Register_box .buttondata .left {
+  width: 50%;
+}
+.Register_conatiner .conatiner_Register .Register_box .buttondata .left .need {
+  font-size: 15px;
+  color: #8c8c8c;
+}
+.Register_conatiner .conatiner_Register .Register_box .buttondata .right {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.Register_conatiner .conatiner_Register .Register_box .buttondata .right .need {
+  font-size: 15px;
+  color: #8c8c8c;
+}
+.Register_conatiner .conatiner_Register .Register_box span {
+  font-size: 15px;
+  color: white;
+}
+.Register_conatiner .conatiner_Register .Register_box p {
+  font-size: 15px;
+  color: #8c8c8c;
+  margin-top: 60px;
+}
+.Register_conatiner .conatiner_Register .Register_box lable {
+  font-size: 13px;
+  color: #8c8c8c;
+}/*# sourceMappingURL=Register.css.map */

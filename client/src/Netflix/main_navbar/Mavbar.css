@@ -1,0 +1,70 @@
+.navbar_cntainer {
+  height: 90px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_cntainer .left {
+  width: 46%;
+}
+.navbar_cntainer .left img {
+  height: 50px;
+  width: 150px;
+  margin-left: 100px;
+}
+.navbar_cntainer .right {
+  width: 54%;
+  display: flex;
+  align-items: center;
+}
+.navbar_cntainer .right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_cntainer .right ul li {
+  list-style: none;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-size: 14px;
+}
+.navbar_cntainer .right .search_input {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_cntainer .right .search_input input {
+  margin-right: 20px;
+  height: 40px;
+  width: 180px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+.navbar_cntainer .right .search_input input::-moz-placeholder {
+  color: #8c8c8c;
+  font-family: sans-serif;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.navbar_cntainer .right .search_input input::placeholder {
+  color: #8c8c8c;
+  font-family: sans-serif;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.navbar_cntainer .right .user {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+.navbar_cntainer .right .user .user_profile {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}/*# sourceMappingURL=Mavbar.css.map */

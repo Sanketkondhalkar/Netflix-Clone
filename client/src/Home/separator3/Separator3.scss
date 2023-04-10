@@ -1,0 +1,51 @@
+.separator3 {
+    padding: 10px 100px;
+    background-color: black;
+
+    .separator3_container {
+        height: 60vh;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left_separator3 {
+        width: 50%;
+        // background-color: red;
+    }
+
+    .right_separator3 {
+
+        // background-color: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+
+
+
+        .videio_container {
+            height: 450px;
+            width: 500px;
+            // background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        video {
+            height: 420px;
+            width: 500px;
+            object-fit: cover;
+        }
+
+        video::-webkit-media-controls-panel {
+            display: none !important;
+            opacity: 1 !important;
+        }
+
+    }
+}

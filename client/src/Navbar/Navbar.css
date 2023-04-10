@@ -1,0 +1,35 @@
+.navbar {
+  height: 90px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  height: 60px;
+  width: 170px;
+  margin-left: 100px;
+}
+.navbar .logo img {
+  height: 60px;
+  width: 170px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.navbar .menu {
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+.navbar .menu .loginbutton {
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}/*# sourceMappingURL=Navbar.css.map */

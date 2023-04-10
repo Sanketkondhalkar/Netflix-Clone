@@ -1,0 +1,38 @@
+.navbar {
+    height: 90px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        height: 60px;
+        width: 170px;
+        margin-left: 100px;
+
+        img {
+            height: 60px;
+            width: 170px;
+            object-fit: contain;
+        }
+    }
+
+    .menu {
+        margin-right: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 200px;
+
+        .loginbutton {
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: red;
+            border: none;
+            color: white;
+            font-weight: 600;
+            font-size: 15px;
+        }
+    }
+}
