@@ -3,22 +3,27 @@ import { Link } from "react-router-dom";
 import Navbar from "../../Navbar/Navbar";
 import "./Register.css";
 import { registerApi } from "../../service/api";
+import { useDispatch } from "react-redux";
+import { registration } from "../../Store/authSlice";
 
 const Register = ({ isauthenticated }) => {
-  console.log(isauthenticated);
+  const dispatch = useDispatch();
+
   const [inputfild, setinputfiled] = useState({
     firstname: "",
     lastname: "",
     email: "",
     password: "",
   });
+
   const registerinput = (e) => {
     setinputfiled({ ...inputfild, [e.target.name]: e.target.value });
   };
 
   const submitRegister = async () => {
     const data = await registerApi(inputfild);
-    console.log(data);
+    dispatch(registration(data.register));
+    // console.log(data);
   };
   return (
     <div className="Register_conatiner">
@@ -65,7 +70,7 @@ const Register = ({ isauthenticated }) => {
             />
 
             <button className="submitRegister" onClick={submitRegister}>
-              Sign up
+              <Link>Sign up</Link>
             </button>
             <p>
               Allready to Netflix?

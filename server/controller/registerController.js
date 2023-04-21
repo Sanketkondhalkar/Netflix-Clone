@@ -49,6 +49,7 @@ export const loginController = async (req, res, next) => {
     return res.status(200).json({
       success: true,
       message: "You have Successfully logged In",
+      data: verified,
     });
   } catch (error) {
     console.log(error);

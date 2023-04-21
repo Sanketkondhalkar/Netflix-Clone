@@ -61,7 +61,12 @@ const Mnavabr = ({ getNavbardata, getlinkdata }) => {
         </ul>
 
         <div className="user">
-          <div className="user_profile"></div>
+          <div className="user_profile">
+            <img
+              src="https://www.pngfind.com/pngs/m/470-4703547_icon-user-icon-hd-png-download.png"
+              alt=""
+            />
+          </div>
           <span>sanket</span>
         </div>
         <div className="search_input">

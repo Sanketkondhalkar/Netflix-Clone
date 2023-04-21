@@ -9,12 +9,18 @@ import Singlecontent from "./Netflix/Singlecontent/Singlecontent";
 import Movie from "./Netflix/Movie/Movie";
 import Movielist from "./Netflix/Movielist/Movielist";
 import axios from "axios";
+import { useSelector } from "react-redux";
+import Mainpage from "./Netflix/Mainpage/Mainpage";
 
 function App() {
-  const [isauthenticated, setisauthenticated] = useState(false);
+  const { register, status } = useSelector((state) => state);
+  console.log(status);
+  const [isauthenticated, setisauthenticated] = useState(status);
   const [navdata, setnavedata] = useState("movie");
   const [listdata, setlistdata] = useState("");
   const [globaldata, setglobaldata] = useState([]);
+
+  console.log(isauthenticated);
 
   useEffect(() => {
     const loaddata = async () => {
@@ -27,9 +33,10 @@ function App() {
           console.log(error.message);
         });
       setglobaldata(demo?.results);
+      setisauthenticated(status);
     };
     loaddata();
-  }, [navdata]);
+  }, [navdata, status, isauthenticated]);
 
   const getNavbardata = (category) => {
     setnavedata(category);
@@ -46,7 +53,11 @@ function App() {
         ""
       )}
       <Routes>
-        <Route path="/" element={<Home isauthenticated={isauthenticated} />} />
+        {!isauthenticated ? (
+          <Route path="/" element={<Home />} />
+        ) : (
+          <Route path="/" element={<Mainpage />} />
+        )}
         <Route
           path="/signin"
           element={<Login isauthenticated={isauthenticated} />}

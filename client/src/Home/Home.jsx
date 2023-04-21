@@ -11,32 +11,26 @@ const Home = ({ isauthenticated }) => {
   console.log(isauthenticated);
   return (
     <>
-      {isauthenticated ? (
-        <Mainpage />
-      ) : (
-        <>
-          <div className="home_container">
-            {isauthenticated ? "" : <Navbar />}
-            <div className="home_main_div">
-              <h1>Unlimited movies, TV shows and more.</h1>
-              <h2>Watch anywhere. Cancel anytime.</h2>
-              <h4>
-                Ready to watch? Enter your email to create or restart your
-                membership.
-              </h4>
-              <button className="home_button">Get started </button>
-            </div>
-          </div>
-          <hr />
-          <Separatore1 />
-          <hr />
-          <Separatore2 />
-          <hr></hr>
-          <Separatore3 />
-          <hr></hr>
-          <Separatore4 />
-        </>
-      )}
+      <div className="home_container">
+        {isauthenticated ? "" : <Navbar />}
+        <div className="home_main_div">
+          <h1>Unlimited movies, TV shows and more.</h1>
+          <h2>Watch anywhere. Cancel anytime.</h2>
+          <h4>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h4>
+          <button className="home_button">Get started </button>
+        </div>
+      </div>
+      <hr />
+      <Separatore1 />
+      <hr />
+      <Separatore2 />
+      <hr></hr>
+      <Separatore3 />
+      <hr></hr>
+      <Separatore4 />
     </>
   );
 };

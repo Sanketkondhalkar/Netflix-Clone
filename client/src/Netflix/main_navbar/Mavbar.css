@@ -67,4 +67,12 @@
   background-color: white;
   border-radius: 50%;
   margin-right: 10px;
+}
+.navbar_cntainer .right .user .user_profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=Mavbar.css.map */
